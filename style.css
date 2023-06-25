@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+:root{
+    --primary-text-color: rgb(29, 33, 41);
+    --secondary-text-color: rgb(95, 87, 87);
+}
+body{
+    font-family: 'Dongle', sans-serif;
+    color: var(--primary-text-color);
+}
+p{
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: var(--secondary-text-color);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.top-banner{
+    text-align: center;
+    padding-top: 8px;
+    background-color: rgb(164, 75, 247);
+    background-image: url(https://img.freepik.com/free-vector/decorative-happy-diwali-banner-with-hanging-lights-diya_1017-34335.jpg?size=626&ext=jpg&ga=GA1.2.1731658878.1670593832&semt=ais);
+    background-position: center;
+    height: 50px;
+}
+.top-banner p{
+    color: white;
+    font-size: 2rem;
+}
+
+nav{
+    height: 100px;
+    margin-top: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+nav img{
+    width: 100px;
+    height: 80px;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.logo{
+    display: inline-block;
+}
+.logo p{
+    display: inline-block;
+    font-size: 50px;
+    color: brown;
+}
+.nav-links{
+    /* display: inline-block; */
+    display: flex;
+    width: 800px;
+    font-size: 30px;
+    padding: 30px;
+    justify-content: space-between;
+}
+.nav-links a{
+    color: black;
+}
+
+
+.container{
+    /* border: 2px solid black; */
+    margin-top: 2px;
+    display: flex;
+}
+.container img{
+    position: relative;
+    left: 100px;
+}
+#content{
+    width: 50vw;
+    padding-left: 120px;
+    position: relative;
+    top: 200px;
+}
+#content h1{
+    font-size: 5rem;
+}
+#content p{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.color-button{
+    background-color: blueviolet;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.company-section{
+    margin-top: 2px;
+    /* border: 2px solid black; */
+}
+.company-section section h3{
+    text-align: center;
+}
+.company-section section h3:hover{
+    font-size: 2rem;
+    transition-duration: 1s;
+}
+.company-logo-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.company-logo-section img:hover{
+    width: 100px;
+    height: 90px;
+    transition-duration: 1.5s;
+}
+.company-logo-section img{
+    width: 5vw;
+    height: 6vh;
+}
+
+.features{
+    /* border: 2px solid black; */
+    margin-top: 2px;
+}
+.features section h3{
+    text-align: center;
+    font-size: 4rem;
+}
+.features section button{
+    position: relative;
+    left: 47%;
+}
+
+.features-item{
+    /* border: 2px solid red; */
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 45px;
+
+}
+.item-img{
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: relative;
+    left: 40%;
+}
+.items h2{
+    text-align: center;
+    font-size: 3rem;
+}
+.items p{
+    text-align: center;
+    font-size: 2rem;
+}
+.items{
+    height: 350px;
+    border-radius: 40px;
+    padding: 10px;
+    /* border: 0.5px solid black; */
+    box-shadow: 5px 4px 10px gray;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+.items:hover{
+    background-color: rgb(245, 242, 242);
+    color: rgb(89, 56, 56);
+    box-shadow: 5px 4px 20px red;
+    transition-duration: 1s;
+}
+.items button{
+    margin-top: 50px;
+    margin-left: 40%;
+}
+.items button:hover{
+    background-color: rgb(255, 115, 115);
+    box-shadow: 6px 4px 8px blue;
+}
+.items button:active{
+    background-color: red;
+    box-shadow: 6px 4px 30px gray;
+}
+.items h2{
+    text-shadow: 9px 8px 15px gray;
+}
+#item2 img{
+    background-color: pink;
+}
+#item3 img{
+    background-color: red;
+}
+#item4 img{
+    background-color: yellow;
+}
+#item5 img{
+    background-color: palevioletred;
+}
+#item6 img{
+    background-color: aqua;
+}
+
+.big-feature{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+}
+.feature-box{
+    /* border: 2px solid black; */
+    padding: 30px;
+    display: flex;
+}
+.big-feature img{
+    width: 700px;
+    height: 650px;
+    /* border: 2px solid blue; */
+    border-radius: 50%;
+}
+.feature-content{
+    /* border: 2px solid green; */
+    padding: 280px 10px 30px 50px;
+}
+.feature-content p{
+    font-size: 2rem;
+}
+.feature-content h2{
+    font-size: 3rem;
+    font-weight: 80%;
+    text-shadow: 2px 4px 5px gray;
+}
+
+.example-heading{
+    text-align: center;
+}
+.example-heading button{
+    width: 250px;
+}
+.example-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    gap: 20px;
+}
+.example-item{
+    /* border: 2px solid black; */
+    height: 250px;
+    padding: 50px;
+    padding-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 4px 8px 10px green;
+}
+.example-item:hover{
+    box-shadow: 4px 8px 10px rebeccapurple;
+    transition-duration: 1.5s;
+    cursor: pointer;
+}
+#example-item1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP1FaEQW1K3u_tTORMlsmGdb_OTNzwONzL0Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#example-item2{
+    background-image: url(https://cdn.wallpapersafari.com/81/17/M4fjSB.png);
+    background-position: center;    
+    background-size: cover;
+}
+#example-item3{
+    background-image: url(https://img.itch.zone/aW1hZ2UvMjI0MTAzLzEwNTgyMjkucG5n/original/gaERSZ.png);
+    background-position: center;
+    background-size: cover;
+}
+#example-item4{
+    background-image: url(https://cdn4.vectorstock.com/i/1000x1000/64/68/background-scene-with-dark-sky-at-night-vector-31626468.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cta-section{
+    background-color: rgb(55, 53, 53);
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+    color: aliceblue;
+}
+.cta-section p{
+    color: rgb(204, 189, 189);
+    padding: 10px;
+}
+
+#footer-logo-img{
+    width: 10vw;
+    height: 15vh;
+}
+.footer{
+    /* border: 2px solid red; */
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer p:hover{
+    cursor: pointer;
+}
+.footer-item1 h2{
+    display: inline;
+}
+
+.primary-footer{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(127, 90, 179);
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.primary-footer-icon img{
+    width: 35px;
+    margin: 5px;
+}
